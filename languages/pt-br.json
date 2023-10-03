@@ -34,5 +34,57 @@
         "HomeButton": "Página Inicial",
         "AdditionalCommands": "Comandos Adicionais",
         "MusicCommands": "Comandos de Música"
+    },
+    "back": {
+        "description": "Faça que o bot volte para música anterior.",
+        "NotConnected": "❌ Você precisa estar conectado em um canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ Não tenho permissão para falar neste canal de voz!",
+        "WithoutPermissionConnect": "❌ Não tenho permissão para me conectar a este canal de voz!",
+        "AlreadyConnected": "❌ Alguém já está ouvindo música em canal diferente!",
+        "NotPlaying": "❌ Você deve estar tocando uma faixa para usar este comando!",
+        "Success": "👍 Protinho, voltei para a música anterior."
+    },
+    "clear": {
+        "description": "Faça que o bot limpe a fila de reprodução e entre no seu canal de voz.",
+        "NotConnected": "❌ Você precisa estar conectado em um canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ Não tenho permissão para falar neste canal de voz!",
+        "WithoutPermissionConnect": "❌ Não tenho permissão para me conectar a este canal de voz!",
+        "AlreadyConnected": "❌ Alguém já está ouvindo música em canal diferente!",
+        "Success": "👍 Protinho, limpei a fila de reprodução."
+    },
+    "join": {
+        "description": "Faça que o bot entre em seu canal de voz.",
+        "NotConnected": "❌ Você precisa estar conectado em um canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ Não tenho permissão para falar neste canal de voz!",
+        "WithoutPermissionConnect": "❌ Não tenho permissão para me conectar a este canal de voz!",
+        "AlreadyConnected": "❌ Alguém já está ouvindo música em canal diferente!",
+        "Success": "👍 Protinho, já estou conectado no seu canal de voz."
+    },
+    "jump": {
+        "description": "Faça que bot pule para uma determinada música da fila de reprodução.",
+        "NotConnected": "❌ Você precisa estar conectado em um canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ Não tenho permissão para falar neste canal de voz!",
+        "WithoutPermissionConnect": "❌ Não tenho permissão para me conectar a este canal de voz!",
+        "AlreadyConnected": "❌ Alguém já está ouvindo música em canal diferente!",
+        "Success": "👍 Protinho, pulei para a música desejada."
+    },
+    "leave": {
+        "description": "Faça que o bot limpe a fila de reprodução e saia do seu canal de voz.",
+        "NotConnected": "❌ Você precisa estar conectado em um canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ Não tenho permissão para falar neste canal de voz!",
+        "WithoutPermissionConnect": "❌ Não tenho permissão para me conectar a este canal de voz!",
+        "AlreadyConnected": "❌ Alguém já está ouvindo música em canal diferente!",
+        "Success": "👍 Protinho, já limpei a fila de reprodução. Agora irei sair do canal de voz."
+    },
+    "loop": {
+        "description": "Altere o modo de loop.",
+        "NotConnected": "❌ Você precisa estar conectado em um canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ Não tenho permissão para falar neste canal de voz!",
+        "WithoutPermissionConnect": "❌ Não tenho permissão para me conectar a este canal de voz!",
+        "AlreadyConnected": "❌ Alguém já está ouvindo música em canal diferente!",
+        "NotPlaying": "❌ Você deve estar tocando uma faixa para usar este comando!",
+        "Disabled": "👍 Protinho, o loop foi **desativado.**",
+        "Queue": "👍 Protinho, agora eu irei repetir **toda a fila de reprodução.**",
+        "Track": "👍 Protinho, agora eu irei repetir **somente a música atual.**"
     }
 }
