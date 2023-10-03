@@ -1,0 +1,222 @@
+{
+	"help": {
+		"description": "See the help panel of PrismBot.",
+		"helpCenterEmbedTitle": "Help Center",
+		"helpCenterEmbedDescription": "Hello! You are in the help center for {botname}. To view the commands, simply click on the buttons below related to the category.",
+		"helpCenterEmbedField1": "Page 1",
+		"helpCenterEmbedField1Value": "Home",
+		"helpCenterEmbedField2": "Page 2",
+		"helpCenterEmbedField2Value": "Additional Commands",
+		"helpCenterEmbedField3": "Page 3",
+		"helpCenterEmbedField3Value": "Music Commands",
+		"additionalEmbedTitle": "Additional Commands",
+		"additionalEmbedPing": "Check the current bot latency.",
+		"additionalEmbedBotInfo": "Get bot usage information.",
+		"additionalEmbedUptime": "Check the bot's uptime.",
+		"additionalEmbedWhois": "Get user information.",
+		"additionalEmbedDonation": "Make a donation to the Project.",
+		"additionalEmbedBestSongs": "View the most added songs on ${botname}.",
+		"musicEmbedPlay": "Play a song in your voice channel.",
+		"musicEmbedQueue": "View the current track queue.",
+		"musicEmbedClear": "Make the bot clear the playback queue and join your voice channel.",
+		"musicEmbedJoin": "Make the bot join your voice channel.",
+		"musicEmbedJump": "Make the bot jump to a specific track in the playback queue.",
+		"musicEmbedBack": "Make the bot go back to the previous song.",
+		"musicEmbedLeave": "Make the bot clear the playback queue and leave your voice channel.",
+		"musicEmbedLoop": "Change the loop mode.",
+		"musicEmbedNowPlaying": "View the currently playing song.",
+		"musicEmbedPause": "Make the bot pause the current song.",
+		"musicEmbedResume": "Make the bot resume your music.",
+		"musicEmbedStop": "Make the bot stop playing your tracks.",
+		"musicEmbedSearch": "Make the bot search for a specific song and display the result.",
+		"musicEmbedRemove": "Make the bot remove a song from the playback queue.",
+		"musicEmbedSkip": "Make the bot skip to the next song.",
+		"OnlyUserButton": "❌ Only {username} can use these buttons",
+		"HomeButton": "Home",
+		"AdditionalCommands": "Additional Commands",
+		"MusicCommands": "Music Commands"
+	},
+	"back": {
+		"description": "Make the bot go back to the previous song.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"Success": "👍 Done, I've gone back to the previous song."
+	},
+	"clear": {
+		"description": "Make the bot clear the playback queue and join your voice channel.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"Success": "👍 Done, I've cleared the playback queue."
+	},
+	"join": {
+		"description": "Make the bot join your voice channel.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"Success": "👍 Done, I'm now connected to your voice channel."
+	},
+	"jump": {
+		"description": "Make the bot jump to a specific track in the playback queue.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"Success": "👍 Done, I've jumped to the desired song."
+	},
+	"leave": {
+		"description": "Make the bot clear the playback queue and leave your voice channel.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"Success": "👍 Done, I've cleared the playback queue. Now I will leave the voice channel."
+	},
+	"loop": {
+		"description": "Change the loop mode.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"Disabled": "👍 Done, the loop has been **disabled.**",
+		"Queue": "👍 Done, now I will **repeat the entire playback queue.**",
+		"Track": "👍 Done, now I will **repeat only the current song.**"
+	},
+	"nowplaying": {
+		"description": "View the currently playing song.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"nowplayingEmbedArtist": "Artist:",
+		"nowplayingEmbedPlatform": "Platform:",
+		"nowplayingEmbedRequester": "Requested by:",
+		"playingLive": "🔴 Playing LIVE (This video is live, it doesn't have a defined duration)."
+	},
+	"pause": {
+		"description": "Make the bot pause the current song.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"Success": "👍 Done, the song has been successfully paused!"
+	},
+	"play": {
+		"description": "Play a song in your voice channel.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"MusicAdded": "🎶 The song {title} has been added to the playback queue.",
+		"PlaylistAdded": "🎶 A playlist has been added to the playback queue. Use the `/queue` command to view your playback queue."
+	},
+	"queue": {
+		"description": "View the playback queue.",
+		"FirstButton": "First page",
+		"NextButton": "Next",
+		"BackButton": "Back",
+		"LastButton": "Last page",
+		"EmptyQueue": "The playback queue is empty.",
+		"ThisCurrentSong": "This is the current song.",
+		"EndQueue": "Here is the end of this playback queue."
+	},
+	"remove": {
+		"description": "Make the bot remove a song from the playback queue.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"TrackNotFound": "❌ Unable to find the track **{input}**!",
+		"Success": "👍 Done, the song **{input}** has been removed from the playback queue."
+	},
+	"resume": {
+		"description": "Make the bot resume your music.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"Success": "👍 Done, the song has been successfully resumed!"
+	},
+	"search": {
+		"description": "Make the bot search for a specific song and display the result.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"NoMatchesFound": "❌ Music not found. Please try again!",
+		"OnlyUserButton": "❌ Hey! This command doesn't belong to you",
+		"MusicAdded": "🎶 The song {title} has been added to the playback queue.",
+		"PlaylistAdded": "🎶 A playlist has been added to the playback queue. Use the `/queue` command to view your playback queue.",
+		"ResultsMessageTitle": "🔍 Results for **${input}**\n😊 Select the tracks below that you want to add to the queue.",
+		"SearchMenuPlaceholder": "Make your selection! 😄"
+	},
+	"skip": {
+		"description": "Make the bot skip to the next song.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"Success": "👍 Done, I've skipped to the next song."
+	},
+	"stop": {
+		"description": "Make the bot stop playing your tracks.",
+		"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+		"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+		"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+		"AlreadyConnected": "❌ Someone is already listening to music in a different channel!",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"Success": "👍 Done, I've stopped playing your tracks."
+	},
+	"bestsongs": {
+		"description": "View the most added songs on ${botname}.",
+		"AddedTimes": "has been added {count} times",
+		"AdditionalMessage": "These details are retrieved from our database. All songs are automatically counted."
+	},
+	"botinfo": {
+		"description": "Get bot usage information.",
+		"statsEmbedCpu": "Processor",
+		"statsEmbedModel": "Model",
+		"statsEmbedUsage": "Usage",
+		"statsEmbedRam": "RAM",
+		"statsEmbedRamTotal": "Total amount",
+		"statsEmbedRamUsage": "RAM in use",
+		"statsEmbedVoiceChannels": "Connected to {platersData} voice channels",
+		"supportButton": "Support",
+		"statsPage": "Status page",
+		"docsPage": "Terms"
+	},
+	"donation": {
+		"description": "Make a donation to the Project.",
+		"donationEmbedTitle": "Donation Page for {botname}",
+		"donationEmbedDescription": "Welcome to the official donation page of PrismBot, your musical companion on Discord! PrismBot is a passionate and dedicated project that aims to deliver amazing music experiences to thousands of Discord servers worldwide. Like any ambitious project, we need your support to continue growing and improving.\n\n**What is PrismBot?**\n\nPrismBot is a feature-rich, multifunctional music bot designed to elevate the quality of music in Discord servers. With a wide variety of customizable commands and a user-friendly interface, PrismBot allows you and your friends to enjoy high-quality music effortlessly.\n\n**Why donate to PrismBot?**\n\nKeeping PrismBot running efficiently and constantly improving it requires financial resources. By donating to PrismBot, you will be contributing directly to:\n\n**1. Continuous Improvements:** Our development team is committed to enhancing PrismBot with new features, performance updates, and regular bug fixes to ensure the best possible music experience.\n\n**2. Stability and Reliability:** Keeping PrismBot servers running reliably is essential. With your help, we can invest in a robust infrastructure to keep the bot online 24/7.\n\n**3. Support and Community:** With donations, we can provide responsive technical support and build a stronger, more engaged community around PrismBot, helping users make the most of the bot."
+	},
+	"ping": {
+		"description": "Check the current bot latency.",
+		"pingMessage": "📡 API Latency: `${Apims}ms`\n🏓 Response Time: `${TimeResponsems}`"
+	},
+	"whois": {
+		"description": "Get user information.",
+		"whoisEmbedUser": "User",
+		"whoisEmbedJoinedServer": "Joined the server",
+		"whoisEmbedJoinedDiscord": "Joined Discord",
+		"whoisEmbedServerBooster": "Server Booster?",
+		"whoisEmbedSinceBooster": "Boosting since",
+		"whoisEmbedGlobalName": "Global Name",
+		"whoisEmbedCargos": "Roles",
+		"whoisEmbedAvatar": "🎨 Avatar of {username}"
+	},
+	"interactionErrors": {
+		"unknownInteraction": "❌ Unknown command.",
+		"disabledCommand": "❌ This command is temporarily disabled.",
+		"dmMessage": "❌ You cannot execute commands in my DM.",
+		"errorMessage": "❌ An error occurred while executing this command."
+	},
+	"": "",
+	"help.": "help."
+}

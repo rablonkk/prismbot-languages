@@ -1,0 +1,220 @@
+{
+    "help": {
+        "description": "Ver el panel de ayuda de {botname}.",
+        "helpCenterEmbedTitle": "Centro de Ayuda.",
+        "helpCenterEmbedDescription": "¡Hola! Estás en el centro de ayuda de {botname}. Para ver los comandos, simplemente haz clic en los botones relacionados con la categoría a continuación.",
+        "helpCenterEmbedField1": "Página 1",
+        "helpCenterEmbedField1Value": "Página de Inicio",
+        "helpCenterEmbedField2": "Página 2",
+        "helpCenterEmbedField2Value": "Comandos Adicionales",
+        "helpCenterEmbedField3": "Página 3",
+        "helpCenterEmbedField3Value": "Comandos de Música",
+        "additionalEmbedTitle": "Comandos Adicionales",
+        "additionalEmbedPing": "Ver la latencia actual del bot.",
+        "additionalEmbedBotInfo": "Obtener información de uso del bot.",
+        "additionalEmbedUptime": "Ver el tiempo de actividad del bot.",
+        "additionalEmbedWhois": "Obtener información del usuario.",
+        "additionalEmbedDonation": "Hacer una donación al Proyecto.",
+        "additionalEmbedBestSongs": "Ver las canciones más añadidas en ${botname}.",
+        "musicEmbedPlay": "Reproducir una canción en tu canal de voz.",
+        "musicEmbedQueue": "Ver la cola actual de canciones.",
+        "musicEmbedClear": "Hacer que el bot limpie la cola de reproducción y se una a tu canal de voz.",
+        "musicEmbedJoin": "Hacer que el bot se una a tu canal de voz.",
+        "musicEmbedJump": "Hacer que el bot salte a una canción específica en la cola de reproducción.",
+        "musicEmbedBack": "Hacer que el bot regrese a la canción anterior.",
+        "musicEmbedLeave": "Hacer que el bot limpie la cola de reproducción y salga de tu canal de voz.",
+        "musicEmbedLoop": "Cambiar el modo de bucle.",
+        "musicEmbedNowPlaying": "Ver la canción en reproducción.",
+        "musicEmbedPause": "Hacer que el bot pause la canción actual.",
+        "musicEmbedResume": "Hacer que el bot reanude tu música.",
+        "musicEmbedStop": "Hacer que el bot deje de reproducir tus canciones.",
+        "musicEmbedSearch": "Hacer que el bot busque una canción específica y muestre los resultados.",
+        "musicEmbedRemove": "Hacer que el bot elimine una canción de la cola de reproducción.",
+        "musicEmbedSkip": "Hacer que el bot pase a la siguiente canción.",
+        "OnlyUserButton": "❌ Solo {username} puede usar estos botones",
+        "HomeButton": "Página de Inicio",
+        "AdditionalCommands": "Comandos Adicionales",
+        "MusicCommands": "Comandos de Música"
+    },
+    "back": {
+        "description": "Hacer que el bot regrese a la canción anterior.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "NotPlaying": "❌ Debes estar reproduciendo una pista para usar este comando.",
+        "Success": "👍 Listo, volví a la canción anterior."
+    },
+    "clear": {
+        "description": "Hacer que el bot limpie la cola de reproducción y se una a tu canal de voz.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "Success": "👍 Listo, limpié la cola de reproducción."
+    },
+    "join": {
+        "description": "Hacer que el bot se una a tu canal de voz.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "Success": "👍 Listo, ya estoy conectado a tu canal de voz."
+    },
+    "jump": {
+        "description": "Hacer que el bot salte a una canción específica en la cola de reproducción.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "Success": "👍 Listo, salté a la canción deseada."
+    },
+    "leave": {
+        "description": "Hacer que el bot limpie la cola de reproducción y salga de tu canal de voz.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "Success": "👍 Listo, ya limpié la cola de reproducción. Ahora saldré del canal de voz."
+    },
+    "loop": {
+        "description": "Cambiar el modo de bucle.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "NotPlaying": "❌ Debes estar reproduciendo una pista para usar este comando.",
+        "Disabled": "👍 Listo, el bucle está **desactivado.**",
+        "Queue": "👍 Listo, ahora repetiré **toda la cola de reproducción.**",
+        "Track": "👍 Listo, ahora repetiré **solo la canción actual.**"
+    },
+    "nowplaying": {
+        "description": "Ver la canción en reproducción.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "NotPlaying": "❌ Debes estar reproduciendo una pista para usar este comando.",
+        "nowplayingEmbedArtist": "Artista:",
+        "nowplayingEmbedPlatform": "Plataforma:",
+        "nowplayingEmbedRequester": "Solicitado por:",
+        "playingLive": "🔴 Reproduciendo EN VIVO (Este video es en vivo, no tiene una duración definida)."
+    },
+    "pause": {
+        "description": "Hacer que el bot pause la canción actual.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "NotPlaying": "❌ Debes estar reproduciendo una pista para usar este comando.",
+        "Success": "👍 Listo, la canción se pausó exitosamente."
+    },
+    "play": {
+        "description": "Reproducir una canción en tu canal de voz.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "MusicAdded": "🎶 La canción {title} se ha añadido a la cola de reproducción.",
+        "PlaylistAdded": "🎶 Se ha añadido una lista de reproducción a la cola de reproducción. Usa el comando `/queue` para ver tu cola de reproducción."
+    },
+    "queue": {
+        "description": "Ver la cola de reproducción.",
+        "FirstButton": "Primera página",
+        "NextButton": "Siguiente",
+        "BackButton": "Volver",
+        "LastButton": "Última página",
+        "EmptyQueue": "La cola de reproducción está vacía.",
+        "ThisCurrentSong": "Esta es la canción actual.",
+        "EndQueue": "Aquí termina esta lista de reproducción."
+    },
+    "remove": {
+        "description": "Hacer que el bot elimine una canción de la cola de reproducción.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "TrackNotFound": "❌ No se pudo encontrar la pista **{input}**.",
+        "Success": "👍 Listo, la canción **{input}** se ha eliminado de la cola de reproducción."
+    },
+    "resume": {
+        "description": "Hacer que el bot retome tu música.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "Success": "👍 Listo, la canción se reanudó con éxito."
+    },
+    "search": {
+        "description": "Hacer que el bot busque una canción específica y muestre los resultados.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "NoMatchesFound": "❌ No se encontraron coincidencias. ¡Inténtalo de nuevo!",
+        "OnlyUserButton": "❌ ¡Oye! Este comando no te pertenece",
+        "MusicAdded": "🎶 La canción {title} se ha añadido a la cola de reproducción.",
+        "PlaylistAdded": "🎶 Se ha añadido una lista de reproducción a la cola de reproducción. Usa el comando `/queue` para ver tu cola de reproducción.",
+        "ResultsMessageTitle": "🔍 Resultados para **${input}**\n😊 Selecciona las canciones de abajo que deseas añadir a la cola.",
+        "SearchMenuPlaceholder": "¡Haz tu selección! 😄"
+    },
+    "skip": {
+        "description": "Hacer que el bot pase a la siguiente canción.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "NotPlaying": "❌ Debes estar reproduciendo una pista para usar este comando.",
+        "Success": "👍 Listo, pasé a la siguiente canción."
+    },
+    "stop": {
+        "description": "Hacer que el bot deje de reproducir tus canciones.",
+        "NotConnected": "❌ Necesitas estar conectado a un canal de voz antes de usar este comando.",
+        "WithoutPermissionSpeak": "❌ No tengo permiso para hablar en este canal de voz.",
+        "WithoutPermissionConnect": "❌ No tengo permiso para conectarme a este canal de voz.",
+        "AlreadyConnected": "❌ Alguien ya está escuchando música en otro canal.",
+        "NotPlaying": "❌ Debes estar reproduciendo una pista para usar este comando.",
+        "Success": "👍 Listo, dejé de reproducir tus canciones."
+    },
+    "bestsongs": {
+        "description": "Ver las canciones más añadidas en ${botname}.",
+        "AddedTimes": "fue añadida {count} veces",
+        "AdditionalMessage": "Estos datos se extraen de nuestra base de datos. Todas las canciones se cuentan automáticamente."
+    },
+    "botinfo": {
+        "description": "Obtener información de uso del bot.",
+        "statsEmbedCpu": "Procesador",
+        "statsEmbedModel": "Modelo",
+        "statsEmbedUsage": "Uso",
+        "statsEmbedRam": "Memoria RAM",
+        "statsEmbedRamTotal": "Cantidad total",
+        "statsEmbedRamUsage": "RAM en uso",
+        "statsEmbedVoiceChannels": "Conectado en {platersData} canales de voz",
+        "supportButton": "Soporte",
+        "statsPage": "Página de Estado",
+        "docsPage": "Términos"
+    },
+    "donation": {
+        "description": "Hacer una donación al Proyecto.",
+        "donationEmbedTitle": "Página de donaciones {botname}",
+        "donationEmbedDescription": "Bienvenido a la página oficial de donaciones de PrismBot, tu compañero musical en Discord. PrismBot es un proyecto apasionado y dedicado que busca ofrecer experiencias musicales increíbles a miles de servidores de Discord en todo el mundo. Como cualquier proyecto ambicioso, necesitamos tu apoyo para seguir creciendo y mejorando.\n\n**¿Qué es PrismBot?**\n\nPrismBot es un bot de música multifuncional y rico en funciones diseñado para elevar la calidad de la música en los servidores de Discord. Con una amplia variedad de comandos personalizables y una interfaz amigable, PrismBot te permite disfrutar de música de alta calidad sin esfuerzo con tus amigos.\n\n**¿Por qué donar a PrismBot?**\n\nMantener PrismBot funcionando de manera efectiva y mejorándolo constantemente requiere recursos financieros. Al donar a PrismBot, estarás contribuyendo directamente a:\n\n**1. Mejoras continuas:** Nuestro equipo de desarrollo se compromete a mejorar PrismBot con nuevas funciones, actualizaciones de rendimiento y correcciones regulares de errores para garantizar la mejor experiencia musical posible.\n\n**2. Estabilidad y confiabilidad:** Mantener los servidores de PrismBot funcionando de manera confiable es esencial. Con tu ayuda, podemos invertir en una infraestructura sólida para mantener el bot en línea las 24 horas del día, los 7 días de la semana.\n\n**3. Soporte y comunidad:** Con las donaciones, podemos proporcionar soporte técnico ágil y crear una comunidad más fuerte y comprometida en torno a PrismBot, ayudando a los usuarios a aprovechar al máximo el bot."
+    },
+    "ping": {
+        "description": "Ver la latencia actual del bot.",
+        "pingMessage": "📡 Latencia de la API: `${Apims}ms`\n🏓 Tiempo de respuesta: `${TimeResponsems}`"
+    },
+    "whois": {
+        "description": "Obtener información de usuario.",
+        "whoisEmbedUser": "Usuario",
+        "whoisEmbedJoinedServer": "Se unió al servidor",
+        "whoisEmbedJoinedDiscord": "Se unió a Discord",
+        "whoisEmbedServerBooster": "¿Impulsando el servidor?",
+        "whoisEmbedSinceBooster": "Impulsando desde",
+        "whoisEmbedGlobalName": "Nombre global",
+        "whoisEmbedCargos": "Roles",
+        "whoisEmbedAvatar": "🎨 Avatar de {username}"
+    },
+    "interactionErrors": {
+        "unknownInteraction": "❌ Comando desconocido.",
+        "disabledCommand": "❌ Este comando está desactivado temporalmente.",
+        "dmMessage": "❌ No puedes ejecutar comandos en mis mensajes directos.",
+        "errorMessage": "❌ Ocurrió un error al ejecutar este comando."
+    }
+}
