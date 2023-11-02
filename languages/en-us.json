@@ -1,0 +1,193 @@
+{
+	"help": {
+		"description": "Access the help panel of PrismBot.",
+		"helpCenterEmbedTitle": "Help Center",
+		"helpCenterEmbedDescription": "Greetings! You are in the help center for {botname}. To view commands, click the buttons below related to the category.",
+		"helpCenterEmbedField1": "Page 1",
+		"helpCenterEmbedField1Value": "Home",
+		"helpCenterEmbedField2": "Page 2",
+		"helpCenterEmbedField2Value": "Additional Commands",
+		"helpCenterEmbedField3": "Page 3",
+		"helpCenterEmbedField3Value": "Music Commands",
+		"additionalEmbedTitle": "Additional Commands",
+		"additionalEmbedDescription": "Explore additional commands of {botname}",
+		"additionalEmbedPing": "Check the current bot latency.",
+		"additionalEmbedBotInfo": "Retrieve bot usage information.",
+		"additionalEmbedUptime": "View the bot's uptime.",
+		"additionalEmbedWhois": "Retrieve user information.",
+		"additionalEmbedDonation": "Make a donation to the Project.",
+		"additionalEmbedBestSongs": "View the most added songs on {botname}.",
+		"musicEmbedTitle": "Music Commands",
+		"musicEmbedDescription": "Explore music-related commands below!",
+		"musicEmbedPlay": "Play a song in your voice channel.",
+		"musicEmbedQueue": "View the current track queue.",
+		"musicEmbedClear": "Make the bot clear the queue and join your voice channel.",
+		"musicEmbedJoin": "Make the bot join your voice channel.",
+		"musicEmbedJump": "Make the bot jump to a specific track in the queue.",
+		"musicEmbedBack": "Make the bot go back to the previous song.",
+		"musicEmbedLeave": "Make the bot clear the queue and leave your voice channel.",
+		"musicEmbedLoop": "Change the loop mode.",
+		"musicEmbedNowPlaying": "View the currently playing song.",
+		"musicEmbedPause": "Make the bot pause the current song.",
+		"musicEmbedResume": "Make the bot resume your music.",
+		"musicEmbedStop": "Make the bot stop playing your tracks.",
+		"musicEmbedSearch": "Make the bot search for a specific song and display the result.",
+		"musicEmbedRemove": "Make the bot remove a song from the queue.",
+		"musicEmbedSkip": "Make the bot skip to the next song.",
+		"OnlyUserButton": "❌ Only {username} can use these buttons",
+		"HomeButton": "Home",
+		"AdditionalCommands": "Additional Commands",
+		"MusicCommands": "Music Commands"
+	},
+	"back": {
+		"description": "Make the bot go back to the previous song.",
+		"NotPlaying": "❌ You must be playing a track to use this command!",
+		"Success": "👍 Done, went back to the previous song."
+	},
+	"clear": {
+		"description": "Make the bot clear the queue and join your voice channel.",
+		"Success": "👍 Done, cleared the queue."
+	},
+	"join": {
+		"description": "Make the bot join your voice channel.",
+		"Success": "👍 Done, now connected to your voice channel."
+	},
+	"jump": {
+		"description": "Make the bot jump to a specific track in the queue.",
+		"Options": "Enter the position or title of the track you want to jump to",
+		"Error": "❌ Unable to find the track **{input}**",
+		"Success": "👍 Done, jumped to the desired song."
+	},
+	"leave": {
+		"description": "Make the bot clear the queue and leave your voice channel.",
+		"Success": "👍 Done, cleared the queue. Now leaving the voice channel."
+	},
+	"loop": {
+		"description": "Change the loop mode.",
+		"Options": "Select a loop mode",
+		"selectTrack": "Repeat only the Song",
+		"selectQueue": "Repeat the entire queue",
+		"selectDisabled": "Disable loop",
+		"Disabled": "👍 Done, the loop is **disabled.**",
+		"Queue": "👍 Done, now I will repeat **the entire queue.**",
+		"Track": "👍 Done, now I will repeat **only the current song.**"
+	},
+	"nowplaying": {
+		"description": "View the currently playing song.",
+		"nowplayingEmbedArtist": "Artist:",
+		"nowplayingEmbedPlatform": "Platform:",
+		"nowplayingEmbedRequester": "Requested by:",
+		"playingLive": "🔴 Playing LIVE (This video is live, with no defined duration)."
+	},
+	"pause": {
+		"description": "Make the bot pause the current song.",
+		"Success": "👍 Done, the song has been successfully paused!"
+	},
+	"play": {
+		"description": "Play a song in your voice channel.",
+		"Options": "Enter the link or name of the song",
+		"MusicAdded": "🎶 The song `{title}` has been added to the queue.",
+		"PlaylistAdded": "🎶 A playlist has been added to the queue. Use the `/queue` command to view your queue."
+	},
+	"queue": {
+		"description": "View the queue.",
+		"FirstButton": "First page",
+		"NextButton": "Next",
+		"BackButton": "Back",
+		"LastButton": "Last page",
+		"EmptyQueue": "The queue is empty.",
+		"ThisCurrentSong": "This is the current song.",
+		"TheEndQueue": "And here is where your playlist ends :)",
+		"MoreTracks": "There are {length} more track(s)",
+		"EndQueue": "Here is the end of this playlist.",
+		"Left": "Remaining"
+	},
+	"remove": {
+		"description": "Make the bot remove a song from the queue.",
+		"Options": "Enter the position or title of the track you want to remove",
+		"Error": "❌ Unable to find the track `{input}`!",
+		"Success": "👍 Done, the song `{input}` has been removed from the queue."
+	},
+	"resume": {
+		"description": "Make the bot resume your music.",
+		"Success": "👍 Done, the song has been successfully resumed!"
+	},
+	"search": {
+		"description": "Make the bot search for a specific song and display the result.",
+		"Options": "Enter the name of the artist, song, or album",
+		"NoMatchesFound": "❌ Song not found. Please try again!",
+		"OnlyUserButton": "❌ Hey! This command doesn't belong to you",
+		"MusicAdded": "🎶 The song `{title}` has been added to the queue.",
+		"PlaylistAdded": "🎶 A playlist has been added to the queue. Use the `/queue` command to view your queue.",
+		"ResultsMessageTitle": "🔍 Results for **{input}**\n😊 Select the tracks below that you want to add to the queue.",
+		"SearchMenuPlaceholder": "Make your selection! 😄"
+	},
+	"skip": {
+		"description": "Make the bot skip to the next song.",
+		"Success": "👍 Done, skipped to the next song."
+	},
+	"stop": {
+		"description": "Make the bot stop playing your tracks.",
+		"Success": "👍 Done, stopped playing your tracks."
+	},
+	"bestsongs": {
+		"description": "View the most added songs on PrismBot.",
+		"AddedTimes": "has been added `{count}` times",
+		"AdditionalMessage": "This information is taken from our database. All songs are automatically counted."
+	},
+	"botinfo": {
+		"description": "Retrieve bot usage information.",
+		"statsEmbedCpu": "Processor",
+		"statsEmbedModel": "Model",
+		"statsEmbedUsage": "Usage",
+		"statsEmbedRam": "RAM",
+		"statsEmbedRamTotal": "Total amount",
+		"statsEmbedRamUsage": "Used RAM",
+		"statsEmbedVoices": "Connected to",
+		"statsEmbedVoiceChannels": "`{playersData}` voice channel(s)",
+		"supportButton": "Support",
+		"statsPage": "Status page",
+		"docsPage": "Terms"
+	},
+	"donation": {
+		"description": "Make a donation to the Project.",
+		"donationEmbedTitle": "Donation Page {botname}",
+		"pareaonPage": "Patreon Page",
+		"donationEmbedDescription": "Welcome to the official donation page of PrismBot, your musical companion on Discord! PrismBot is a passionate and dedicated project aiming to deliver incredible musical experiences to thousands of Discord servers worldwide. Like any ambitious project, we need your support to continue growing and improving.\n\n**What is PrismBot?**\n\nPrismBot is a feature-rich, multifunctional music bot designed to elevate the quality of music in Discord servers. With a wide range of customizable commands and a user-friendly interface, PrismBot allows you and your friends to enjoy high-quality music effortlessly.\n\n**Why donate to PrismBot?**\n\nKeeping PrismBot running effectively and constantly improving requires financial resources. By donating to PrismBot, you will be directly contributing to:\n\n**1. Continuous Improvements:** Our development team is committed to enhancing PrismBot with new features, performance updates, and regular bug fixes to ensure the best musical experience possible.\n\n**2. Stability and Reliability:** Maintaining PrismBot servers running reliably is crucial. With your help, we can invest in a robust infrastructure to keep the bot online 24/7.\n\n**3. Support and Community:** With donations, we can provide prompt technical support and build a stronger, more engaged community around PrismBot, helping users get the most out of the bot."
+	},
+	"ping": {
+		"description": "Check the current bot latency.",
+		"pingMessage": "📡 API Latency: `{Apims}ms`"
+	},
+	"uptime": {
+		"description": "View the bot's uptime."
+	},
+	"whois": {
+		"description": "Retrieve user information.",
+		"Options": "Mention a user",
+		"whoisEmbedUser": "User",
+		"whoisEmbedJoinedServer": "Joined the server",
+		"whoisEmbedJoinedDiscord": "Joined Discord",
+		"whoisEmbedServerBooster": "Boosting server?",
+		"whoisEmbedSinceBooster": "Boosting since",
+		"whoisEmbedGlobalName": "Global name",
+		"whoisEmbedCargos": "Roles",
+		"whoisEmbedAvatar": "🎨 Avatar of {username}"
+	},
+	"unknownInteraction": "❌ Unknown command.",
+	"disabledCommand": "❌ This command is temporarily disabled.",
+	"dmMessage": "❌ You cannot execute commands in my DM.",
+	"errorMessage": "❌ An error occurred while executing this command.",
+	"NotConnected": "❌ You need to be connected to a voice channel before using this command.",
+	"WithoutPermissionSpeak": "❌ I don't have permission to speak in this voice channel!",
+	"WithoutPermissionConnect": "❌ I don't have permission to connect to this voice channel!",
+	"AlreadyConnected": "❌ Someone is already playing music in a different channel!",
+	"NotPlaying": "❌ You must be playing a track to use this command!",
+	"playbackEmbedDuration": "Duration:",
+	"playbackEmbedPlatform": "Platform:",
+	"playbackEmbedRequested": "Requested by:",
+	"playbackMessage": "🎶 Now playing: `{title}` (requested by: <@{user}>)",
+	"playingLive": "🔴 Playing LIVE (This video is live, with no defined duration).",
+	"streamProcessError": "❌ There was an error processing your song. Try again!",
+	"processingRequest": "I am processing your request..."
+}
